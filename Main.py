@@ -19,7 +19,7 @@ def test_img():
    counter=0
    cv_img = []
    y = []
-   for img in glob.glob(r'C:\Users\Jas\desktop\non-autistic\*.jpg'):
+   for img in glob.glob(r'C:\Users\Jas\desktop\Non_Autistic\*.jpg'):
       y.append(0)
       img1 = Image.open(img)
       # Added code
