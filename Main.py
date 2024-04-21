@@ -19,7 +19,7 @@ def test_img():
    counter=0
    cv_img = []
    y = []
-   for img in glob.glob(r'C:\Users\Sofy\desktop\test9\non-autistic\*.jpg'):
+   for img in glob.glob(r'C:\Users\Jas\desktop\non-autistic\*.jpg'):
       y.append(0)
       img1 = Image.open(img)
       # Added code
@@ -34,7 +34,7 @@ def test_img():
     #  if(counter==5000):
           #break
    #print(counter)
-   for img in glob.glob(r'C:\Users\Sofy\desktop\test9\autistic\*.jpg'):
+   for img in glob.glob(r'C:\Users\Jas\desktop\autistic\*.jpg'):
       y.append(1)
       img1 = Image.open(img)
       img1 = img1.resize((100, 100))
@@ -95,7 +95,7 @@ def test_img():
      #     counter = counter + 1
    #print("Accuracy",counter / len(X_test))
 
-   img2 = Image.open(r'C:\Users\Sofy\Desktop\test9\test\img10.jpg')
+   img2 = Image.open(r'C:\Users\Jas\Desktop\test\img10.jpg')
    img2 = img2.resize((100, 100))
    reshaped_image=np.transpose(img2)
    reshaped_image = np.transpose(img2)
